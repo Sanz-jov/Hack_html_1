@@ -1,0 +1,104 @@
+>:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-1 {
+    background-color: #93B5C9;
+    height: 100px;
+    width: 100%;
+}
+
+.box-2 {
+    background-color: #AB2849;
+    height: 200px;
+    width: 100%;
+}
+
+.box-3 {
+    background-color: #AB2849;
+    height: 85px;
+    width: 90%;
+    justify-content: center;
+    display: flex; 
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.box-4 {
+    display: flex;
+}
+
+.box-4-1,.box-4-2 {
+    justify-content: space-between;
+    background-color: #AB2849;
+    width: 905%;
+    height: 85px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box-4-1 {
+    margin-left: 70px;
+}
+
+.box-4-2 {
+    margin-right: 82px;
+}
+
+.box-5 {
+    background-color: #AB2849;
+    height: 85px;
+    width: 90%;
+    justify-content: center;
+    display: flex; 
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.box-6 {
+    display: flex;
+}
+
+.box-6-1,.box-6-2 {
+    justify-content: space-between;
+    background-color: #AB2849;
+    width: 90%;
+    height: 85px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box-6-1 {
+    margin-left: 70px;
+}
+
+.box-6-2 {
+    margin-right: 82px;
+}
+
+.box-7 {
+    background-color: #AB2849;
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    display: flex; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,258 @@
+root {
+   -bg--color: #EEEEEE;
+   -bg--color: #00BF63;
+   -bg--color: #7ED957;
+
+   font-family: "Arimo";
+}
+
+body {
+    margin-left: 5px;
+}
+
+header {
+    margin-top: 96px;
+    margin-bottom: 7px;
+}
+
+.Circle-green {
+    background-color: #7ED957;
+    height: 66px;
+    width: 66px;
+    border-radius: 100%;
+    margin-left: 150px;
+}
+
+.Position-header {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 91px;
+    left: 272px;
+    gap: 439px;
+}
+
+.header-text-1  {
+   font-family: "Arimo";
+   font-size: 63px;
+}
+
+.header-text-2  {
+   font-family: "Arimo";
+   font-size: 31px;
+   margin-top: 18px;
+}
+
+.container {
+    background-image: url('/hack_html_1/hack_5/img/2.png');
+    height: 1000px;
+    width: 1550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.position-fringe1 {
+    margin-top: 296px;
+}
+
+.fringe-text-green1, .fringe-text-green2, .fringe-text-green3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #00BF63;
+}
+
+.fringe-text-green1 {
+    height: 81px;
+    width: 566px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+.fringe-text-green2, .fringe-text-green3{
+    height: 81px;
+    width: 942px;
+    margin-left: 36px;
+    margin-bottom: 6px;
+
+}
+
+.sentence-1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    font-family: "Arimo";
+    font-size: 61px;
+    margin-top: 296px;
+    margin-left: 152px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #EEEEEE;
+}
+
+.position-fringe2 {
+    margin-top: 70px;
+}
+
+.fringe-text-black1 {
+    background-color: black;
+    height: 40px;
+    width: 892px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+}
+
+.fringe-text-black2 {
+    background-color: black;
+    height: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 59px;
+}
+
+.sentence-2 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    font-family: "Arimo";
+    font-size: 32px;
+    margin-top: 629px;
+    margin-left: 152px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #EEEEEE;
+}
+
+.text1 {
+    font-family: "Arimo";
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 14px;
+    margin-left: 153px;
+}
+
+.text2 {
+    font-family: "Arimo";
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 154px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.position-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 120px;
+
+}
+
+.photo1, .photo2, .photo3 {
+    height: 300px;
+    width: 317px;
+}
+
+.icon1 {
+    margin-top: 15px;
+    height: 67px;
+    width: 67px;
+    margin-left: 154px;
+}
+
+.icon2 {
+    margin-top: 15px;
+    height: 67px;
+    width: 67px;
+    margin-left: 360px;
+}
+
+.icon3 {
+    margin-top: 15px;
+    height: 67px;
+    width: 67px;
+    margin-left: 366px;
+}
+
+.position-text345 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    gap: 80px;
+    top: 1690px;
+}
+
+.text3, .text4 {
+    font-family: "Arimo";
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 225px;
+}
+
+.text5 {
+    font-family: "Arimo";
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 118px;
+}
+
+.position-text678 {
+    display: flex;
+    font-family: "Arimo";
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.text6 {
+    display: inline-block;
+    margin-left: 154px;
+    font-size: 24px;
+}
+
+.text7 {
+    display: inline-block;
+    margin-left: 132px;
+    font-size: 17px;
+}
+
+.text8 {
+    display: inline-block;
+    margin-left: 129px;
+    font-size: 23px;
+}
+
+.fringe-text-green4 {
+    background-color: #00BF63;
+    height: 110px;
+    width: 98%;
+    margin-left: 23px;
+    margin-bottom: 15px;
+    margin-top: 65px;
+}
+
+.position-text9-10-11 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    gap: 100px;
+    margin-left: 154px;
+    margin-top: 102px;
+}
+
+.text9, .text10, .text11 {
+    font-family: "Arimo";
+    font-size: 29px;
+    font-weight: 300;
+    color: #EEEEEE;
+}
+

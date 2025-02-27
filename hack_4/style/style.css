@@ -1,0 +1,131 @@
+:root {
+    FONT: RUDA
+
+    TEXT: end of season
+    TEXT: sale -COLOR: #B88940
+    TEXT: 50 % off
+
+    ----------------------------
+    FONT: Catamaran
+
+    TEXT: Lorem ipsum dolor sit amet
+    TEXT: Lorem $0.00
+
+    ----------------------------
+    FONT: Open sans Extra Bold
+
+    TEXT: your fashion -COLOR: #B88940
+
+    ----------------------------
+    FONT: Catamaran
+
+    TEXT: Lorem ipsum dolor sit amet
+
+    ----------------------------
+    FRANJAS AMARILLAS  -COLOR: #FFBD59
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fringe {
+    background-color: black;
+    width: 80px;
+    height: 7px;
+    margin-top: 80px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.text-one {
+    font-family: "RUDA";
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center
+}
+
+.text-two {
+    color: #B88940;
+    font-family: "RUDA";
+    font-size: 160px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.text-three {
+    font-family: "RUDA";
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text-four {
+    font-family: "Catamaran";
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.set-stripe {
+    margin-top: 230px;
+}
+
+.line-1, .line-2, .line-3, .line-4 {
+    background-color: #FFBD59;
+    width: 1450px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.position-photos {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    gap: 15px;
+    margin-top: 250px;
+}
+
+.photo-1, .photo-2, .photo-3 {
+    justify-content: space-between;
+    width: 240px;
+    height: 370px;
+}
+
+.prices {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+.sale-1, .sale-2, .sale-3 {
+    font-family: "Catamaran";
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-five {
+    color: #B88940;
+    font-family: "Catamaran";
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.text-six{
+    font-family: "RUDA";
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 70px;
+}
